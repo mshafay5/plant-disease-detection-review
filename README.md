@@ -13,27 +13,27 @@ This is the official companion repository for the open-access Plant Methods revi
 
 ## Datasets from the Review
 
-The table below is derived from Table 2 of the paper: “Summary of datasets employed in plant disease detection studies, including details on the environment, size, categories, annotations, characteristics, and challenges.” A machine-readable version is available at [`tables/datasets.csv`](tables/datasets.csv). Links are taken from the LaTeX source or bibliography where available; otherwise the entry is marked as `TODO`.
+The table below is derived from Table 2 of the paper: "Summary of datasets employed in plant disease detection studies, including details on the environment, size, categories, annotations, characteristics, and challenges." A machine-readable version is available at [`tables/datasets.csv`](tables/datasets.csv), and the dataset-link maintenance table is available at [`docs/dataset_links.md`](docs/dataset_links.md).
 
-| Dataset | Imaging modality | Environment | Size | Categories/classes | Annotation type | Key characteristics | Challenges | Link |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Plant Village | Not specified in source table | Lab | 54,303 | 38 | Labels | Captured in a lab; single leaf per image; uniform background | Data imbalance; fine-grained classification | TODO |
-| Plant Doc | Not specified in source table | Natural & Lab | 2,569 | 30 | Labels & Bounding Boxes | Field images; some misclassification | Imbalanced data; variability | TODO |
-| Cassava Leaf Disease | Not specified in source table | Natural | 21,367 | 5 | Labels | Crowd-sourced from farmers | Real-world variability | [link](https://www.kaggle.com/competitions/cassava-leaf-disease-classification) |
-| FieldPlant | Not specified in source table | Natural | 5,170 | 27 | Labels & Bounding Boxes | Collected from plantations; complex backgrounds | Imbalanced data; cluttered environment | TODO |
-| CD&S | Not specified in source table | Natural | 1,597 | 3 | Labels & Bounding Boxes | Field-acquired; augmented images | Disease classification | [link](https://arxiv.org/abs/2110.12084) |
-| JMuBEN | Not specified in source table | Natural | 58,555 | 5 | Labels | Multiclass classification | Small image resolution | [link](https://data.mendeley.com/datasets/tgv3zb82nd/1) |
-| Cucumber Disease Dataset | Not specified in source table | Natural | 6,400 | 8 | Labels | Multiclass classification; augmented images | Fine-grained classification | [link](https://doi.org/10.1016/j.dib.2023.109320) |
-| Tobacco Leaf Abnormality | Not specified in source table | Natural | 1,430 | 16 | Labels | Single disease focus; high-resolution images | Class imbalance; disease similarity | TODO |
-| Tobacco Plant Disease Dataset | Not specified in source table | Natural | 2,721 | 12 | Labels & Bounding Boxes | Detailed multi-class annotations | Occlusion; fragmented disease recognition | [link](https://doi.org/10.1117/12.2644288) |
-| BananaLSD | Not specified in source table | Natural | 1,600 | 4 | Labels | Field-captured smartphone images; expert pathologist labeling | Three distinct leaf spot diseases; real-world variability | TODO |
-| Banana Leaves Imagery | Not specified in source table | Natural | 11,767 | 3 | Labels | Multi-regional collection; high-resolution smartphone capture | Geographic diversity; disease severity variation | TODO |
-| Tanzania Banana Leaf Dataset | Not specified in source table | Natural | 17,068 | 3 | Labels | Farmer garden collection; camera device standardization | Real-world field variability; mobile image quality consistency | [link](https://doi.org/10.7910/DVN/LQUWXW) |
-| PSFD-Musa Banana Leaf Dataset | Not specified in source table | Natural | 8,000 | 15 | Labels | Multi-aspect banana health assessment; augmented images | Multi-class identification; diverse disease types | TODO |
-| Makerere AI Bean Disease | Not specified in source table | Natural | 1,295 | 3 | Labels | Smartphone-captured field images; expert annotation by NaCRRI | Real-world variability; mobile deployment requirements | [link](https://github.com/AI-Lab-Makerere/ibean/) |
-| CGIAR Bean Disease | Not specified in source table | Natural | 9,969 | 6 | Labels & Bounding Boxes (34,053 micro annotations) | Multi-disease coverage; leaf and pod samples; disease hotspot collection | Complex backgrounds; co-occurring diseases; large-scale variations | [link](https://doi.org/10.1038/s41598-024-66281-w) |
-| AMG_HS | Not specified in source table | Natural | 6,127 | 2 | Labels & Segmentation | Top-view of crops; segmentation masks | Detection and localization of plant stress | TODO |
-| PlantSeg | Not specified in source table | Natural | 11,400 | 115 | Labels & Segmentation | In-the-wild images; diverse environments; segmentation masks | Disease region identification and classification | TODO |
+| Dataset | Environment | Size | Categories/classes | Annotation type | Key characteristics | Challenges | Link |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| PlantVillage | Lab | 54,303 | 38 | Labels | Captured in a lab; single leaf per image; uniform background | Data imbalance; fine-grained classification | [Mendeley Data / original dataset URL](https://data.mendeley.com/datasets/tywbtsjrjv/1) [tensorflow](https://www.tensorflow.org/datasets/catalog/plant_village) |
+| PlantDoc | Natural & Lab | 2,569 | 30 | Labels & Bounding Boxes | Field images; some misclassification | Imbalanced data; variability | [GitHub repository](https://github.com/pratikkayal/PlantDoc-Dataset) [github](https://github.com/pratikkayal/PlantDoc-Dataset) |
+| Cassava Leaf Disease | Natural | 21,367 | 5 | Labels | Crowd-sourced from farmers | Real-world variability | [Kaggle competition](https://www.kaggle.com/c/cassava-leaf-disease-classification) [kaggle](https://www.kaggle.com/c/cassava-leaf-disease-classification) |
+| FieldPlant | Natural | 5,170 | 27 | Labels & Bounding Boxes | Collected from plantations; complex backgrounds | Imbalanced data; cluttered environment | [Roboflow Universe page](https://universe.roboflow.com/plant-disease-detection/fieldplant) [universe.roboflow](https://universe.roboflow.com/plant-disease-detection/fieldplant) |
+| CD&S | Natural | 1,597 | 3 | Labels & Bounding Boxes | Field-acquired; augmented images | Disease classification | [arXiv paper / dataset description](https://arxiv.org/abs/2110.12084) [arxiv](https://arxiv.org/abs/2110.12084) |
+| JMuBEN | Natural | 58,555 | 5 | Labels | Multiclass classification | Small image resolution | [Mendeley Data](https://data.mendeley.com/datasets/tgv3zb82nd/1) [data.mendeley](https://data.mendeley.com/datasets/tgv3zb82nd/1) |
+| Cucumber Disease Dataset | Natural | 6,400 | 8 | Labels | Multiclass classification; augmented images | Fine-grained classification | [Mendeley Data](https://data.mendeley.com/datasets/y6d3z6f8z9.1) [data.mendeley](https://data.mendeley.com/datasets/y6d3z6f8z9) |
+| Tobacco Leaf Abnormality | Natural | 1,430 | 16 | Labels | Single disease focus; high-resolution images | Class imbalance; disease similarity | No clear public standalone dataset link found; the dataset is described in the paper, but a direct download link was not surfaced in the sources checked. [pubmed.ncbi.nlm.nih](https://pubmed.ncbi.nlm.nih.gov/38681219/) |
+| Tobacco Plant Disease Dataset | Natural | 2,721 | 12 | Labels & Bounding Boxes | Detailed multi-class annotations | Occlusion; fragmented disease recognition | [University publication page](https://research.mpu.edu.mo/en/publications/tobacco-plant-disease-dataset) [research.mpu.edu](https://research.mpu.edu.mo/en/publications/tobacco-plant-disease-dataset) |
+| BananaLSD | Natural | 1,600 | 4 | Labels | Field-captured smartphone images; expert pathologist labeling | Three distinct leaf spot diseases; real-world variability | [Kaggle dataset](https://www.kaggle.com/datasets/shifatearman/bananalsd) |
+| Banana Leaves Imagery | Natural | 11,767 | 3 | Labels | Multi-regional collection; high-resolution smartphone capture | Geographic diversity; disease severity variation | [Nature article landing page](https://www.nature.com/articles/s41597-025-04456-4) |
+| Tanzania Banana Leaf Dataset | Natural | 17,068 | 3 | Labels | Farmer garden collection; camera device standardization | Real-world field variability; mobile image quality consistency | [Dataverse / DOI landing page](https://doi.org/10.7910/DVN/LQUWXW) [ngdc.cncb.ac](https://ngdc.cncb.ac.cn/opia/dataset/datasets/tables?dataId=35) |
+| PSFD-Musa Banana Leaf Dataset | Natural | 8,000 | 15 | Labels | Multi-aspect banana health assessment; augmented images | Multi-class identification; diverse disease types | [Kaggle dataset](https://www.kaggle.com/datasets/shifatearman/bananalsd) |
+| Makerere AI Bean Disease | Natural | 1,295 | 3 | Labels | Smartphone-captured field images; expert annotation by NaCRRI | Real-world variability; mobile deployment requirements | [GitHub repository](https://github.com/AI-Lab-Makerere/ibean/) [github](https://github.com/Lwhieldon/Cassava-Leaf-Disease-Classification) |
+| CGIAR Bean Disease | Natural | 9,969 | 6 | Labels & Bounding Boxes (34,053 micro annotations) | Multi-disease coverage; leaf and pod samples; disease hotspot collection | Complex backgrounds; co-occurring diseases; large-scale variations | [Nature article landing page](https://doi.org/10.1038/s41598-024-66281-w) [data.mendeley](https://data.mendeley.com/datasets/3832tx2cb2/1) |
+| AGM_HS | Natural | 6,127 | 2 | Labels & Segmentation | Top-view of crops; segmentation masks | Detection and localization of plant stress | [Hugging Face dataset](https://huggingface.co/datasets/deep-plants/AGM_HS) |
+| PlantSeg | Natural | 11,400 | 115 | Labels & Segmentation | In-the-wild images; diverse environments; segmentation masks | Disease region identification and classification | [arXiv paper](https://arxiv.org/abs/2409.04038) and [Zenodo dataset](https://zenodo.org/records/13958858) [arxiv](https://arxiv.org/abs/2409.04038) |
 
 ## Featured Figures
 
@@ -57,7 +57,7 @@ Chronological overview of the most relevant methodologies for Plant Disease Dete
 
 ## Benchmarking Code
 
-This repository provides a simple Hugging Face/PyTorch benchmarking script inspired by Table 6 of the review: “Classification performance comparison across plant disease datasets. Results are reported as Accuracy/F1-Score. Bold values indicate the best performance for each dataset, while italicized values denote the best result from the Exploratory Analysis.” The extracted Table 6 resource is available at [`tables/benchmark_results_table6.csv`](tables/benchmark_results_table6.csv).
+This repository provides a simple Hugging Face/PyTorch benchmarking script inspired by Table 6 of the review: "Classification performance comparison across plant disease datasets. Results are reported as Accuracy/F1-Score. Bold values indicate the best performance for each dataset, while italicized values denote the best result from the Exploratory Analysis." The extracted Table 6 resource is available at [`tables/benchmark_results_table6.csv`](tables/benchmark_results_table6.csv).
 
 The script fine-tunes common image-classification backbones on local image-folder datasets:
 
@@ -98,32 +98,32 @@ Outputs are written to `results/`, including per-run text files, confusion matri
 
 ```text
 .
-├── README.md
-├── LICENSE
-├── CITATION.cff
-├── requirements.txt
-├── .gitignore
-├── paper/
-│   ├── review_paper.pdf
-│   └── source/
-├── figures/
-│   ├── figure_2_taxonomy.png
-│   ├── figure_7_rgb_timeline.png
-│   ├── figure_10_hsi_timeline.png
-│   └── README.md
-├── tables/
-│   ├── datasets.csv
-│   ├── benchmark_results_table6.csv
-│   └── README.md
-├── scripts/
-│   ├── finetune_classification.py
-│   └── README.md
-├── results/
-│   └── README.md
-└── docs/
-    ├── dataset_links.md
-    ├── citation.ris
-    └── contribution_guide.md
+|-- README.md
+|-- LICENSE
+|-- CITATION.cff
+|-- requirements.txt
+|-- .gitignore
+|-- paper/
+|   |-- review_paper.pdf
+|   `-- source/
+|-- figures/
+|   |-- figure_2_taxonomy.png
+|   |-- figure_7_rgb_timeline.png
+|   |-- figure_10_hsi_timeline.png
+|   `-- README.md
+|-- tables/
+|   |-- datasets.csv
+|   |-- benchmark_results_table6.csv
+|   `-- README.md
+|-- scripts/
+|   |-- finetune_classification.py
+|   `-- README.md
+|-- results/
+|   `-- README.md
+`-- docs/
+    |-- dataset_links.md
+    |-- citation.ris
+    `-- contribution_guide.md
 ```
 
 ## Citation
