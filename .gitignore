@@ -1,0 +1,49 @@
+# Original submission files copied into the cleaned repository structure
+Shafay Plant Methods.pdf
+Plant_Methods__Recent_Advances_in_Plant_Disease_Detection__Revision_2_/
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local datasets and model artifacts
+datasets/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Generated results, but keep the explanatory README
+results/*
+!results/README.md
+
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.run.xml
+*.bcf
+*.lof
+*.lot
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

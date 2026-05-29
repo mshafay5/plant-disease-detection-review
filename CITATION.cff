@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated Plant Methods review paper."
+title: "Recent advances in plant disease detection: challenges and opportunities"
+authors:
+  - family-names: Shafay
+    given-names: Muhammad
+  - family-names: Hassan
+    given-names: Taimur
+  - family-names: Owais
+    given-names: Muhammad
+  - family-names: Hussain
+    given-names: Irfan
+  - family-names: Khawaja
+    given-names: Sajid Gul
+  - family-names: Seneviratne
+    given-names: Lakmal
+  - family-names: Werghi
+    given-names: Naoufel
+journal: "Plant Methods"
+volume: 21
+issue: 1
+pages: "140"
+year: 2025
+date-published: "2025-10-28"
+doi: "10.1186/s13007-025-01450-0"
+url: "https://doi.org/10.1186/s13007-025-01450-0"
+license: MIT
