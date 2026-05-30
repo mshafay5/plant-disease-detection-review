@@ -11,7 +11,7 @@ This is the official companion repository for the open-access Plant Methods revi
 - [Featured figures](#featured-figures)
 - [Citation](#citation)
 
-## Datasets from the Review
+## List of Datasets for Plant Disease Detection
 
 The table below is derived from Table 2 of the paper: "Summary of datasets employed in plant disease detection studies, including details on the environment, size, categories, annotations, characteristics, and challenges." A machine-readable version is available at [`tables/datasets.csv`](tables/datasets.csv), and the dataset-link maintenance table is available at [`docs/dataset_links.md`](docs/dataset_links.md).
 
