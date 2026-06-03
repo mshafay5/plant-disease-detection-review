@@ -93,37 +93,6 @@ python scripts/finetune_classification.py --model all --dataset all --data-root 
 
 Outputs are written to `results/`, including per-run text files, confusion matrices, label mappings, configuration files, and a combined `results/benchmark_summary.csv`.
 
-## Repository Structure
-
-```text
-.
-|-- README.md
-|-- LICENSE
-|-- CITATION.cff
-|-- requirements.txt
-|-- .gitignore
-|-- paper/
-|   |-- review_paper.pdf
-|   `-- source/
-|-- figures/
-|   |-- figure_2_taxonomy.png
-|   |-- figure_7_rgb_timeline.png
-|   |-- figure_10_hsi_timeline.png
-|   `-- README.md
-|-- tables/
-|   |-- datasets.csv
-|   |-- benchmark_results_table6.csv
-|   `-- README.md
-|-- scripts/
-|   |-- finetune_classification.py
-|   `-- README.md
-|-- results/
-|   `-- README.md
-`-- docs/
-    |-- dataset_links.md
-    |-- citation.ris
-    `-- contribution_guide.md
-```
 
 ## Citation
 
