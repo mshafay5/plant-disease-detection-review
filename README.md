@@ -4,7 +4,6 @@ This is the official companion repository for the open-access Plant Methods revi
 
 ## Quick Links
 
-- [Paper PDF](paper/review_paper.pdf)
 - [DOI: 10.1186/s13007-025-01450-0](https://doi.org/10.1186/s13007-025-01450-0)
 - [Dataset table](#datasets-from-the-review)
 - [Benchmarking script](scripts/finetune_classification.py)
